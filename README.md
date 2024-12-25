@@ -1,10 +1,15 @@
 # TAIWAN-NO.1
 
 ## Concept Development 開發構想
-- 爲了慶祝中華隊棒球奪得冠軍，所以我們做了一個小游戲來回顧我們奪冠的歷程
+- 爲了慶祝中華隊棒球奪得冠軍，所以我們做了一個小游戲來回顧我們奪冠的歷程 
+模擬第九局下半 刺激的最後一局
+![image](https://github.com/user-attachments/assets/c072f273-041f-4a4a-8788-8fd48b3e9920)
+
 
 ## Gameplay 玩法
-- 鏡頭1和鏡頭2會形成一個好球帶的範圍，玩家可在鏡頭1后方投球，當球經過鏡頭1和鏡頭2時候會判斷為好球
+- 鏡頭1和鏡頭2會形成一個好球帶的範圍，玩家可在鏡頭1后方投球，當球同時經過鏡頭1和鏡頭2時候會判斷為好球
+- ![未命名的筆記本 (1)_page-0001 (1)](https://github.com/user-attachments/assets/34b04396-dfea-405a-bb71-7f51b25131a8)
+
 
 ## Implementation Resources 運用資源
 - Python
