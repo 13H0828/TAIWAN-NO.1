@@ -17,18 +17,22 @@
 
 ## 游戲程式執行
 <img src="https://github.com/user-attachments/assets/ce96bcaa-264d-4fe3-b014-394adedb187b" width="500">
+
 - 設置相機的曝光程度與幀數，調整好球帶的範圍大小
 - 儲存兩個攝影機捕捉的前一幀影像，作為之後逐幀差異比較的基準
 
 <img src="https://github.com/user-attachments/assets/5a6826ff-1794-45d9-b33d-2c674337ac00" width="500">
+
 - 記錄棒球比賽中的好球、壞球、和出局的計數
 - 當達到某個條件（如 3 出局）時，進入慶祝模式並播放一段影片
 - 在比賽重新開始時，重置所有的計數和播放狀態
 
 <img src="https://github.com/user-attachments/assets/03a2519a-1350-4841-9d7e-82a7112a4652" width="500">
+
 - 將「好球」（S）、「壞球」（B）和「出局」（O）的狀態以圖形化方式顯示，並在 3 出局達成時進入慶祝模式(播放影片)
 
 <img src="https://github.com/user-attachments/assets/907efcf0-5f09-4e64-b180-7a715ceb002a" width="500">
+
 - 從指定攝影機讀取一幀影像，並檢查是否成功讀取。
 - 根據攝影機 ID 和偵測狀態，在影像中央繪製不同顏色的矩形框（紅色或綠色）。紅色為兩個攝影機同時偵測到目標，綠色為只有一個攝影機或未同時偵測到目標。
 - 將讀取的彩色影像轉換為灰度影像，用於後續處理。
