@@ -16,9 +16,29 @@
 - Ubuntu
 - Chatgpt
 - Opencv
+## Hardware 硬體
+- webcam*2
+  
+## Ubuntu Setup 虛擬機環境設定
+first of all
+:假如是用筆電 要先去裝置管理員將鏡頭關閉 否則opencv無法處裡空置鏡頭
+在虛擬機的裝置 選取兩個webcam
+![image](https://github.com/user-attachments/assets/aac1ffda-40eb-4fd0-b98d-485b1dbb8871)
 
-## Ubuntu Setup 虛擬機設定
+![image](https://github.com/user-attachments/assets/9861cdd0-405f-4f63-9809-a7ba7ebe7f18) \
+最後要去找到兩個鏡頭分別的數字ex 0,2
+
+
 - sudo apt install python3-opencv
+- sudo apt install pillow
+- sudo apt install screeninfo
+- sudo apt install vlc
+  
+## run in ubuntu
+- sudo vim <任意檔名>.py
+  開啟並且將程式碼貼進去
+- python3 <任意檔名>.py
+  
 
 ## 游戲程式執行
 <img src="https://github.com/user-attachments/assets/ce96bcaa-264d-4fe3-b014-394adedb187b" width="500">
@@ -42,15 +62,17 @@
 - 根據攝影機 ID 和偵測狀態，在影像中央繪製不同顏色的矩形框（紅色或綠色）。紅色為兩個攝影機同時偵測到目標，綠色為只有一個攝影機或未同時偵測到目標。
 - 將讀取的彩色影像轉換為灰度影像，用於後續處理。
 
+
 ## 困難及未來展望
 ### 困難
 - 在創新性與娛樂性發想這方面花了較多時間
 - 完成程式碼後想用樹梅派運行 礙於硬體強度無法流暢偵測畫面
 - 攝影機設備幀數不足準確率欠佳
-- 好球帶的判斷方式
+- 好壞球的判斷方式
 ### 未來展望
-- 希望能夠搭配match template讓他只偵測棒球
-- 
+- 能夠搭配match template讓他只偵測棒球
+- 能夠使用高偵數camera來捕捉高速的球
+- 能夠實際應用在業餘棒球比賽
 ## Job Assignment 工作分配
 - 陳冠霖 111213016
   - readme撰寫
