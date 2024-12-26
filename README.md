@@ -92,6 +92,9 @@ first of all
   - readme撰寫
 
 ## References 參考資料
+https://www.youtube.com/watch?v=xjrykYpaBBM
 
 ## Demo 實做影片
 https://www.youtube.com/watch?v=LSwQh3WOnzc
+
+# 感謝猛哥和各位助教的幫忙
