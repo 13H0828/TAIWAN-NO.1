@@ -8,7 +8,7 @@
 
 ## Gameplay 玩法
 - 鏡頭1和鏡頭2會形成一個好球帶的範圍，玩家可在鏡頭1后方投球，當球同時經過鏡頭1和鏡頭2時候會判斷為好球
-- ![未命名的筆記本 (1)_page-0001 (1)](https://github.com/user-attachments/assets/34b04396-dfea-405a-bb71-7f51b25131a8)
+ ![未命名的筆記本 (1)_page-0001 (1)](https://github.com/user-attachments/assets/34b04396-dfea-405a-bb71-7f51b25131a8)
 
 
 ## Implementation Resources 運用資源
@@ -20,8 +20,7 @@
 - webcam*2
   
 ## Ubuntu Setup 虛擬機環境設定
-first of all
-:假如是用筆電 要先去裝置管理員將鏡頭關閉 否則opencv無法處裡空置鏡頭
+假如是用筆電 要先去裝置管理員將鏡頭關閉 否則opencv無法處裡空置鏡頭
 在虛擬機的裝置 選取兩個webcam
 ![image](https://github.com/user-attachments/assets/aac1ffda-40eb-4fd0-b98d-485b1dbb8871)
 
